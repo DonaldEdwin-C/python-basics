@@ -3,7 +3,7 @@ print('Hello world')
 
 xx = 65 #int
 xz = 65.9 #float
-xy = 'Hello world'
+xy = 'Hello world' #string
 x = ['Donald', ' ', 'Edwin'] #list
 
 print (x, xy, xx, xz)
@@ -61,3 +61,7 @@ print (a + b)
 
 name = input('Enter you name: ')
 print ('Hello ' + name)
+
+s = '''Hello my name
+is Donald'''
+print(s)
