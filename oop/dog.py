@@ -15,6 +15,9 @@ class BrawlhallaCharacter:
     def display_stats(self):
         print(f"---{self.name}---")
         print(f"Weapons: {self.weapon1} & {self.weapon2}")
+        for stat, value in self.stats.items():
+            print(f"{stat.capitalize()}: {value}")
+
     def enhance_stat(self, increase_stat, decrease_stat):
         if increase_stat not in self.stats or decrease_stat not in self.stats:
             print('Invalid stat name')
